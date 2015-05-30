@@ -5,6 +5,9 @@ date:   2015-05-30 12:19:00
 categories: raspberry pi camera python
 ---
 
+**The code for the article can be downloaded at [https://github.com/itip/raspberry-pi-examples](https://github.com/itip/raspberry-pi-examples)**.
+
+
 ## Introduction
 
 In this tutorial we're going to make a simple intruder detector using a Raspberry Pi. Whenever movement is detected it'll take a photo, upload it to the web and send you an email.
