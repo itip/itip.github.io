@@ -94,8 +94,7 @@ It's now time to take a photo using code. We'll write a simple Python program wh
 3. Save the file as photo.py.
 4. Run ``python photo.py``. The photo will be saved in the directory which you ran the code.
 
-```python
-# photo.py
+<pre><code># photo.py
 
 import picamera
 import time
@@ -108,8 +107,7 @@ name = "photo %s.jpg" % time.strftime("%H:%M:%S")
 camera = picamera.PiCamera()
 camera.brightness = 60
 camera.capture(name)
-print "Photo Taken!!"
-```
+print "Photo Taken!!"</code></pre>
 
 For details on the various settings which can be used, take a look at [this page][rpi_camera_python] on the Raspberry Pi site.
 
