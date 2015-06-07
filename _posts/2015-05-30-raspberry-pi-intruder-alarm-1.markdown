@@ -15,7 +15,7 @@ In this tutorial we're going to make a simple intruder detector using a Raspberr
 There's quite a lot to discuss so we'll break this tutorial down into three parts:
 
 1. **Taking Photos** - using your Raspberry Pi and the camera module.
-2. **Proximity Sensor** - take a photo when an intruder is detected.
+2. **Motion Sensor** - take a photo when an intruder is detected.
 3. **Web & Email** - create a simple website which lists photos and sends emails.
 
 Let's get started with part 1...
