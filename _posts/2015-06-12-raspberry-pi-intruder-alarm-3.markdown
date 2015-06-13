@@ -192,7 +192,6 @@ The final step is to send an email when an alert is received. Parse cloud code c
 
 Now open `main.js` in the web app. Update the `mandrillKey` variable at the top. Also enter the your email address into the variables at the top (it's ok to use the same email address in both variables).
 
-require('cloud/app.js');
 
 <pre><code>
 /* After adding an alert we'll send an email */
