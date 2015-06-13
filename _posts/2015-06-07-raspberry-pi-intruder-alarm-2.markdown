@@ -37,11 +37,14 @@ We're using model HC-SR501.
 
 ## Raspberry Pi and Motion Sensor ##
 
-1. On the motion sensor, connect the "VCC" pin to the 5V pin on your Raspberry Pi.
-2. Connect the middle "OUT" pin to GPIO4.
-3. Connect the ground "GND" field on the sensor to the  "GND" field on the Raspberry Pi.
+1. On the motion sensor, connect the "VCC" pin to the 5V pin on your Raspberry Pi (the upper-right pin).
+2. Connect the middle "OUT" pin to GPIO4 (left-hand side, 4th from top).
+3. Connect the ground "GND" field on the sensor to the  "GND" field on the Raspberry Pi (right-hand side, 3rd from top).
 4. Run the sample code. ``sudo python sensor.py`` (Note: sudo is needed in order to access the output from the sensors).
 5. When you're finished, press ``ctrl+c`` to exit.
+
+*If you're unsure which pins to use, take a look at [this page][sensor_pins].*
+
 
 <img src="/assets/pi_intruder_2/rpi_and_motion.jpg" srcset="/assets/pi_intruder_2/rpi_and_motion.jpg 1x,
                                                   /assets/pi_intruder_2/rpi_and_motion@2x.jpg 2x" width="600" height="600"/>
@@ -156,7 +159,7 @@ print "Closing..."
 
 Our Raspberry Pi will now take a photo whenever it detects movement. In the final part of our tutorial we will upload these photos to the web and send an email whenever an intruder is detected.
 
-
+[sensor_pins]:    https://www.raspberrypi.org/learning/parent-detector/worksheet/
 [ada_fruit_pir]:      https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/testing-a-pir
 [sparkfun_pur]:   https://learn.sparkfun.com/tutorials/pull-up-resistors
 [resistor_bands]: http://www.digikey.co.uk/en/resources/conversion-calculators/conversion-calculator-resistor-color-code-4-band

@@ -1,6 +1,6 @@
 # Site settings
 title: Ian Tipton
-email: info@itipton.com
+email: itipdev@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Open source projects by Ian Tipton
 baseurl: "" # the subpath of your site, e.g. /blog/
